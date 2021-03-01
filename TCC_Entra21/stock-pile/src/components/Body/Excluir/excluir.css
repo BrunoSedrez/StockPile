@@ -1,0 +1,32 @@
+.TagTituloExcluir {
+  margin-left: 375px;
+  margin-top: 10px;
+  color: #1f1f1f;
+  padding: 7px;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#ParaExcluir {
+  font-size: 16px;
+  color: #d81010;
+  width: 450px;
+}
+
+.ClButtonDeletar {
+  width: 215px;
+  height: 35px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  background-color: #ec0f0f;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+#ClButtonDeletar:hover {
+  background-color: #d81010;
+  color: #000000;
+  border-radius: 5px;
+}

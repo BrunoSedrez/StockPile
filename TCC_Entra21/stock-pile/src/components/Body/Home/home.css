@@ -1,0 +1,139 @@
+.ClP1 {
+    margin-top: -235px;
+    width: 250px;
+    padding: 7px;
+    border-radius: 8px;
+    border: #2bd3cb solid 3px;
+    margin-left: 208px;
+    height: 220px;
+  }
+  
+  .ClP2 {
+    margin-top: 100px;
+    width: 264px;
+    padding: 7px;
+    border-radius: 8px;
+    border: #2bd3cb solid 3px;
+    margin-left: 611px;
+    height: 220px;
+    
+  }
+  
+  .ClP3 {
+    margin-top: -120px;
+    width: 264px;
+    padding: 7px;
+    border-radius: 8px;
+    border: #2bd3cb solid 3px;
+    margin-left: 611px;
+  }
+  
+  .ClP4 {
+    margin-top: 30px;
+    width: 670px;
+    padding: 12px;
+    border-radius: 9px;
+    border: #2bd3cb solid 3px;
+    margin-left: 205px;
+    
+  }
+  
+  .ClP5 {
+    margin-top: 29px;
+    width: 248px;
+    padding: 7px;
+    border-radius: 8px;
+    border: hsl(177, 66%, 50%) solid 3px;
+    margin-left: 202px;
+  }
+  
+  .ClP6 {
+    margin-top: -103px;
+    width: 248px;
+    padding: 7px;
+    border-radius: 8px;
+    border: #2bd3cb solid 3px;
+    margin-left: 566px;
+  }
+  
+  .ClPDiv {
+    margin-left: 38px;
+    margin-top: 10px;
+  }
+  
+  .ClTitleHome {
+    display: block;
+    font-size: 3.5em;
+    margin-block-start: 5.83em;
+    margin-block-end: -3.17em;
+    margin-inline-start: 319px;
+    margin-inline-end: 345px;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .imgHome {
+    opacity: 100;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-blend-mode: lighten;
+    background-position: center;
+    width: 32%;
+    height: 443px;
+    margin-left: 761px;
+    margin-top: 184px;
+  }
+  
+  .ClDiv1 {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+  }
+  
+  h1 {
+    font-size: 25px;
+  }
+  
+  .ClTitleHome {
+    animation-duration: 3s;
+    animation-name: title;
+  }
+  .imgHome {
+    animation-duration: 3s;
+    animation-name: img;
+  }
+  
+  @keyframes title {
+    from {
+      margin-left: 20%;
+      width: 60%;
+    }
+  
+    to {
+      margin-left: 35%;
+      width: 60%;
+    }
+  }
+  
+  @keyframes img {
+      from {
+        margin-left: 20%;
+        width: 32%;
+      }
+    
+      to {
+        margin-left: 62%;
+        width: 32%;
+      }
+    }
+  h5{
+    font-size: 16px;
+    
+  }
+  h1{
+    font-weight: bold;
+    text-align: center;
+  }

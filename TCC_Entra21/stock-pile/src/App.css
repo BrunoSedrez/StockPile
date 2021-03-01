@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background:linear-gradient(to right, #ffffff, #cff5fd);
+}
+/* rgb(207, 207, 207) */
+.clTudo .header {/* Css do Header */
+  z-index: 1;
+  background: #272727;
+  position: fixed;
+  width: calc(100% - 0%);
+  height: 85px;
+  display: flex;
+  top: 0;
+}
+
+.clTudo .header .header-menu {/* CSS do menuzinho */
+  width: calc(100% - 0%);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.clTudo .header .header-menu .titulo {/* Título */
+  color: #2bd3cb;
+  font-size: 25px;
+  margin-left: 450px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.clTudo .header .header-menu .titulo span {/* Css título */
+  color: #d52990;
+}
+/* .clTudo .header .header-menu .menu-colapsar {
+  color: #2bd3cb;
+  position: absolute;
+  margin-left: 10px;
+  font-size: 28px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: color;
+} */
+
+/* .clTudo .header .header-menu .menu-colapsar:hover {
+  color: #d52990;
+} */
+
+.clTudo .header .header-menu ul {
+  display: flex;
+}
+
+.clTudo .header .header-menu ul li a {/* css das tags A que estiverem dentro de header */
+  background: #d52990;
+  color: #000;
+  display: block;
+  margin: 0 10px;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  transition-property: background, color;
+}
+
+.clTudo .header .header-menu ul li a:hover {
+  background: #2bd3cb;
+  color: #000;
+}
+
+.clTudo .sidebar {/* Cssdo sidebar */
+  z-index: 1;
+  background: #272727;
+  position: fixed;
+  top: 70px;
+  width: 250px;
+  height: calc(100% - 9%);
+  transition: 0.3s;
+  transition-property: width;
+  overflow-y: auto;
+}
+
+.clTudo .sidebar .sidebar-menu .item .menu-botao {
+  display: block;
+  color: #2bd3cb;
+  position: relative;
+  padding: 25px 20px;
+  transition: 0.3s;
+  transition-property: color;
+}
+
+.clTudo .sidebar .sidebar-menu .item .menu-botao:hover {
+  color: #d52990;
+}
+
+.clTudo .sidebar .sidebar-menu .item .menu-botao i { /* Icones do sidebar */
+  margin-right: 20px;
+}
+
+.clTudo .sidebar .sidebar-menu .item .menu-botao .drop-down {
+  float: right;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.clTudo .sidebar .sidebar-menu .item .sub-menu {
+  background: #d52990;
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.3s;
+  transition-property: background, max-height;
+}
+
+.clTudo .sidebar .sidebar-menu .item .sub-menu a {
+  display: block;
+  position: relative;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 15px;
+  padding: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.clTudo .sidebar .sidebar-menu .item .sub-menu a:hover {
+  background: #d52990;
+}
+
+.clTudo .sidebar .sidebar-menu .item .sub-menu a:not(last-child) {
+  border-bottom: 1px solid #8fc5e9;
+}
+
+.clTudo .sidebar .sidebar-menu .item .sub-menu i {
+  padding-right: 20px;
+  font-size: 10px;
+}
+
+.clTudo .sidebar .sidebar-menu .item:target .sub-menu {
+  max-height: 500px;
+}
+
+.clTudo .main-container {
+  width: (100% - 250px);
+  margin-top: 70px;
+  margin-left: 250px;
+  padding: 15px;
+  height: 100vh;
+  transition: 0.3s;
+}
+
+.image {
+  top: 15px;
+  bottom: 15px;
+}
+.fas fa {
+  width: 40px;
+  height: auto;
+}
+

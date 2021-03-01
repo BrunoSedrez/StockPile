@@ -1,0 +1,40 @@
+#posiciona {
+  position: absolute; 
+  left: 100%; 
+  top: 100%;
+  width: 200px; /*Largura da DIV */
+  height: 80px; /* Altura da DIV */
+  /* A margem a esquerda deve ser menos a metade da largura /
+  / A margem ao topo deve ser menos a metade da altura /
+  / Fazendo isso, centralizará a DIV */
+  margin-left: -200px;
+  margin-top: -25px;
+  background-color: #FFF;
+  color: #2bd3cb;
+  background-color:  #272727;
+  text-align: center; /* Centraliza o texto */ 
+  border-radius: 0px 0px 10px 10px;
+  z-index: 1000;
+  display: none;
+  padding: 15px;
+  border: 2px solid #272727;
+
+}
+.a{
+  color: #d52990;
+}
+.botoes{
+  height: 30px;
+  width: 150px;
+  font-size: 15px;
+  border-radius: 12px;
+  background-color: white;
+  color: #2bd3cb;
+  border: 2px solid black;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+  .botoes:hover{
+    background-color: #d52990; 
+    color: white;
+}

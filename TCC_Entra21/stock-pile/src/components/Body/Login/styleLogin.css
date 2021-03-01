@@ -1,0 +1,106 @@
+/*  * {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  color: #141213;
+} */
+/* #idDivValida {
+  background: linear-gradient(to right, #dfdfdf, #4ccee8);
+}*/
+
+#idDivValida {
+  background: linear-gradient(to right, #f7f7f4, #4ccee8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-style: none;
+  width: 500px;
+}
+
+.ClLogin {
+  width: 500px;
+  height: auto;
+  background: #bebebe;
+  padding: 25px 30px;
+  border-radius: 15px;
+}
+
+.ClLogin #idTitulo {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.ClLogin .ClUserSenha {
+  margin-bottom: 20px;
+  width: 435px;
+  position: relative;
+}
+
+.ClLogin .ClUserSenha:last-child {
+  margin-bottom: 0;
+}
+
+.ClLogin .ClUserSenha label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.ClLogin .ClUserSenha input {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.ClLogin .ClUserSenha .ClInput {
+  background: #f5f4f4;
+}
+
+.ClLogin .ClUserSenha .ClInput:focus {
+  border-color: #d52990;
+}
+
+.ClLogin .ClUserSenha #idCadastroButton {
+  width: 215px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.ClLogin .ClUserSenha #idCadastroButton:hover {
+  background-color: #2bd3cb; /* Green */
+  color: white;
+}
+
+.ClLogin .ClUserSenha .ClLoginButton {
+  width: 215px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  background-color: #d52990;
+  color: white;
+}
+
+#idTitulo {
+  color: #d52990;
+}
+#idSolution {
+  color: #2bd3cb;
+  font-size: 18px;
+}
+.ClUserSenha {
+  position: relative;
+}
+.ClErro {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #f82323;
+  display: none;
+}

@@ -1,0 +1,109 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color: #141213;
+}
+
+body {
+    background: linear-gradient(to right, #f7f7f4, #4CCEE8);
+}
+
+#idDivValida {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ClLogin{
+    width: 1200px;
+    height: auto;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 15px;
+}
+
+.ClLogin #idTitulo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.ClLogin .ClUserSenha {
+    margin-bottom: 20px;
+    
+    position: relative;
+    display: flex;
+}
+
+.ClLogin .ClUserSenha:last-child{
+    margin-bottom: 0;
+}
+
+.ClLogin .ClUserSenha label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ClLogin .ClUserSenha input {
+    padding: 15px;
+    width: 100%;
+    border: 1px solid transparent;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.ClLogin .ClUserSenha .ClInput {
+    background: #f5f4f4;
+} 
+
+.ClLogin .ClUserSenha .ClInput:focus{
+    border-color: #d52990;
+}
+
+
+
+.ClLogin .ClUserSenha .ClLoginButton {
+    width: 1125px;
+    background: grey;
+    letter-spacing: 3px;
+    color: black;
+    position: relative;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+
+    
+}
+.ClLogin .ClUserSenha .ClLoginButton:hover {
+
+    background-color:  #2bd3cb;
+}
+
+.ClLogin .ClUserSenha .ClErro{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #f82323;
+    display: none;
+}
+#idTitulo{
+    color: #d52990;
+}
+#idSolution{
+    color: #2bd3cb;
+    font-size: 18px;
+}
+.ClUserSenha{
+    position: relative;
+}
+#Entrada{
+    width: 700px;
+    position: absolute;
+    
+}
+#divCep{
+    width: 300px;
+}

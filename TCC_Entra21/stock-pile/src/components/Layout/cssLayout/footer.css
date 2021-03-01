@@ -1,0 +1,42 @@
+footer {
+  line-height: 10px;
+  height: 160px;
+  box-sizing: unset;
+  background: #272727;
+}
+
+/* Footer */
+footer ul {
+  float: right;
+  display: table-row;
+}
+
+footer ul li {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 60px;
+  height: 140px;
+  width: 210px;
+}
+
+.footer-img {
+  width: 200px;
+  padding-right: 40px;
+}
+
+.footer-letras {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+
+  height: 15;
+  color: #000000;
+}
+
+.IMG-linkedin {
+  height: 43px;
+  width: 40px;
+  margin-bottom: 10px;
+}
+.entra21 p {
+  margin-top: 30px;
+}

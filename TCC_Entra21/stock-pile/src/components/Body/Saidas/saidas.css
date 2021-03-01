@@ -1,0 +1,96 @@
+.TituloSaidas {
+  margin-left: 375px;
+  margin-top: 10px;
+  color: #1f1f1f;
+  padding: 7px;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+
+.ClCodProdVend {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.ClVendas {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.ClVendas:focus {
+  border-color: #d81088;
+}
+.ClDataInput {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.ClCodProdVend:focus {
+  border-color: #d81088;
+}
+.ClDataInput:focus {
+  border-color: #d81088;
+}
+#idValidaButton {
+  width: 215px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+#idVendaButton {
+  width: 215px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ClButtonValidaV {
+  width: 215px;
+  height: 35px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  background-color: #2fc2ba;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+.ClButtonVenda {
+  width: 215px;
+  height: 35px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  background-color: #2fc2ba;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+#idValidaButtonVenda:hover {
+  background-color: #383b3b;
+  color: #2bd3cb;
+  border-radius: 5px;
+}
+#idVendaButton:hover {
+  background-color: #383b3b;
+  color: #2bd3cb;
+  border-radius: 5px;
+}
+.ClErroVenda {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #f82323;
+  display: none;
+}

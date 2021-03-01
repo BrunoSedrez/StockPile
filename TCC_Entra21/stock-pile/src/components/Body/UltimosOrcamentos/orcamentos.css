@@ -1,0 +1,76 @@
+.TituloHistOrc {
+  margin-left: 375px;
+  margin-top: 10px;
+  color: #1f1f1f;
+  padding: 7px;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.ClOrcFornA,
+.ClOrcFornB,
+.ClOrcFornC,
+.ClOrcFornD {
+  display: flex;
+  width: 200px;
+  height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  background-color: #1f1f1f;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #2fc2ba;
+}
+.ClOrcFornA:hover,
+.ClOrcFornB:hover,
+.ClOrcFornC:hover, 
+.ClOrcFornD:hover {
+  background-color: #2fc2ba;
+  color: white;
+  border-radius: 5px;
+}
+.h2TagOrc {
+  font-size: 23px;
+}
+
+.ClSolicita {
+  display: flex;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ClInputCodProd,
+.ClButtonSolicita {
+  display: none;
+}
+.ClInputCodProd {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.ClButtonSolicita {
+  width: 230px;
+  height: 35px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  background-color: #2fc2ba;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+.ClButtonSolicita:hover {
+  background-color: #1f1f1f;
+  color: #2fc2ba;
+  border-radius: 5px;
+}

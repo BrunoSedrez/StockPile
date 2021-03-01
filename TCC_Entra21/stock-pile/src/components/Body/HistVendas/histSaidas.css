@@ -1,0 +1,66 @@
+/* * {
+  font-family: "Roboto", sans-serif;
+} */
+
+.TituloHistVend {
+  margin-left: 375px;
+  margin-top: 10px;
+  color: #1f1f1f;
+  padding: 7px;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.HistVendas {
+  display: flex;
+  margin-left: 380px;
+  margin-top: 10px;
+}
+
+.ClDivHistVenda1 {
+  width: 330px;
+  border-radius: 8px;
+  color: #1f1f1f;
+  padding: 2%;
+  margin-right: auto;
+  margin-left: -80%;
+  font-size: 15px;
+  text-align: center;
+  border: #2bd3cb solid 2px;
+  margin-top: 9%;
+}
+
+.DivHistVenda2 {
+  width: 350px;
+  border-radius: 5px;
+  color: #1f1f1f;
+  padding: 7px;
+  margin-right: auto;
+  margin-left: -83px;
+  font-size: 15px;
+  text-align: center;
+  border: #2bd3cb solid 2px;
+  margin-top: 12%;
+}
+
+.DivHistVenda3 {
+  width: 350px;
+  border-radius: 5px;
+  color: #1f1f1f;
+  padding: 7px;
+  margin: 53px 349px;
+  font-size: 15px;
+  text-align: center;
+  border: #2bd3cb solid 2px;
+}
+
+.HVendaA {
+  color: #141414;
+}
+.tboIdLinhaVenda {
+  border-radius: 10px;
+}
+#thHeaderTable,
+#tboIdLinhaVenda {
+  text-align: center;
+}

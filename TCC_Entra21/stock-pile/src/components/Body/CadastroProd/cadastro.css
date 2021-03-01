@@ -1,0 +1,23 @@
+.trClPedido {
+  background-color: #086f6a;
+}
+.trClPedido {
+  color: #fcfcfc;
+}
+.tituloFiltro {
+  color: #000000;
+}
+.trClProdutoData {
+  color: #000000;
+}
+.tboIdLinha {
+  border-radius: 10px;
+}
+.TituloCadastro {
+  margin-left: 375px;
+  margin-top: 10px;
+  color: #1f1f1f;
+  padding: 7px;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
